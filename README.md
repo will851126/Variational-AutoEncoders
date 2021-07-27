@@ -27,7 +27,7 @@ x and the reconstruction x
  using a kind of reconstruction loss. Because the autoencoder is trained as a whole (we say it’s trained “end-to-end”), we simultaneosly optimize the encoder and the decoder.
   
 <p align="center">
-    <img src="Png/autoencoder.png" width="80%" height="80%">
+    <img src="Png/autoencoder.png" width="50%" height="50%">
 
 ## Variational Autoencoders
 
@@ -43,7 +43,7 @@ This is generally accomplished by replacing the last layer of a traditional auto
 
 
 <p align="center">
-    <img src="Png/variational-autoencoder.png" width="80%" height="80%">
+    <img src="Png/variational-autoencoder.png" width="50%" height="50%">
 
 ## Conclusions
 
