@@ -1,6 +1,6 @@
 # Variational AutoEncoders (VAE) with PyTorch
 
-## Motivation
+## Purpose
 Imagine that we have a large, high-dimensional dataset. For example, imagine we have a dataset consisting of thousands of images. Each image is made up of hundreds of pixels, so each data point has hundreds of dimensions. The manifold hypothesis states that real-world high-dimensional data actually consists of low-dimensional data that is embedded in the high-dimensional space. This means that, while the actual data itself might have hundreds of dimensions, the underlying structure of the data can be sufficiently described using only a few dimensions.
 
 This is the motivation behind dimensionality reduction techniques, which try to take high-dimensional data and project it onto a lower-dimensional surface. For humans who visualize most things in 2D (or sometimes 3D), this usually means projecting the data onto a 2D surface. Examples of dimensionality reduction techniques include **principal component analysis (PCA)** and **t-SNE**. Chris Olah’s blog has a great post reviewing some dimensionality reduction techniques applied to the MNIST dataset.
